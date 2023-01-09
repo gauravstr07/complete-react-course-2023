@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
+  let name = "Gaurav";
   return (
     <div className="App">
-      <h1>Hello React💖</h1>
+      <h1>Hello {name}💖</h1>
+      <Header />
     </div>
   );
 }
