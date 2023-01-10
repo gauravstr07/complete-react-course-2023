@@ -1,15 +1,18 @@
 import React from "react";
+import Footer from "./Footer";
+import '../components/header.css'
 
 function Header() {
   return (
     <>
-      <div>Header</div>
+      <div className="header"> 
+        <h1 id="topic">This is Header</h1>
+        <p style={{color: "blue"}}>this is footer paragraph</p>
+        <Footer></Footer>
+      </div>
     </>
   );
 }
 
-function Footer() {
-  return <em>This is Footer</em>;
-}
-
-export { Header, Footer };
+export { Header };
+export default Footer;
