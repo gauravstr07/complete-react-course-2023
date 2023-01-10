@@ -1,7 +1,10 @@
 .App {
   text-align: center;
-  background-color: #15202b;
-  color: white;
+  background-color: #222831;
+  color: #DDDDDD;
+  border: 5px solid;
+  border-radius: 15px;
+  min-height: 100vh;
 }
 
 .header{
