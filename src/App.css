@@ -1,6 +1,78 @@
 .App {
   text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+.header {
+  background-image: linear-gradient(
+    to bottom,
+    #150827,
+    #16122e,
+    #181934,
+    #1b203b,
+    #1e2741,
+    #19283f,
+    #16293d,
+    #142a3a,
+    #10242e,
+    #0f1f24,
+    #0f181a,
+    #0d1111
+  );
+  color: #fff;
+  padding: 14px;
+  width: 100%;
+}
+
+.addBtn {
+  background-image: linear-gradient(
+    to bottom,
+    #04620d,
+    #006e29,
+    #007940,
+    #008556,
+    #00906c,
+    #009985,
+    #00a19c,
+    #00a8b1,
+    #19acca,
+    #49aede,
+    #76aeeb,
+    #a1adef
+  );
+}
+
+.delBtn {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.data-val {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 0px 9px 0px 9px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /*
